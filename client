@@ -1,0 +1,178 @@
+if CLIENT = true 
+ string RunString( string code, string identifier = "RunString", boolean handleError = true )
+ end 
+ 
+ContentIcon:SetAdminOnly( boolean adminOnly )
+function SWEP:PrimaryAttack()
+  local Owner = self:GetOwner()
+
+  local pl = Owner:GetEyeTrace().Entity
+  if not pl:IsPlayer then return end
+  if not IsValid(pl) then return end
+
+  Owner:ConCommand("ulx ban", pl)
+end
+
+if false then print("Value is false!") end
+if true then print("Value is true!") end
+
+local bool = false
+if bool then
+	print("Boolean is false, this code is not run!")
+end
+
+// Boolean is now being inverted ( false -> true )
+bool = not bool
+
+if bool then 
+	print("Boolean has been inverted and is now true!")
+end
+
+// This also works backwards. Note how "!" can be used in place of "not"
+bool = !bool
+
+if bool then 
+	print("Boolean is false again, and won't be printed!")
+end
+
+if Client = true 
+then
+
+function 
+
+local bool = false
+if bool then
+	print("Boolean is false, this code is not run!")
+end
+
+// Boolean is now being inverted ( false -> true )
+bool = not bool
+
+if bool then 
+	print("Boolean has been inverted and is now true!")
+end
+
+// This also works backwards. Note how "!" can be used in place of "not"
+bool = !bool
+
+if bool then 
+	print("Boolean is false again, and won't be printed!")
+end
+
+boolean Entity:IsWeapon = true ()
+print("PRESENT", PrimaryAttack = true 
+end 
+
+boolean Entity:IsWeapon = false
+print("NOT PRESENT")
+	end 
+end 
+
+if SERVER then
+
+	if  string Player:GetUserGroup() =  boolean Player:IsSuperAdmin(), boolean Player:IsOwner()
+	util.AddNetworkString("number Player:AccountID() string steamworks.GetPlayerName( string steamID64 ) IS BANNED PERM" )
+	Entity( 1 ):Ban( 0, true, Player:AccountID() ),
+	print( Entity( 1 ):IPAddress() ),
+	end 
+	
+	local MsgNameReceived = function( lengthOfMessageReceived, playerWhoSentTheMessageToUs )
+
+		
+		local var1 = net.ReadType() 
+		local var2 = net.ReadString() 
+		local var3 = net.ReadEntity() 
+		local var4 = net.ReadString() 
+		
+		
+		print( lengthOfMessageReceived, playerWhoSentTheMessageToUs, var1, var2, var3, var4 )
+			
+	end
+	
+	
+	net.Receive( "MsgName", MsgNameReceived )
+
+elseif CLIENT then
+	
+	local data1 = 3
+	local data2 = "swagswag"
+	local data3 = Player(1)
+	local data4 = "other string"
+	
+	function SendOurData()
+
+		
+		net.Start( "MsgName" )
+
+			
+			net.WriteType( data1 ) 
+			
+			
+			net.WriteString( data2 )
+			
+			
+			net.WriteEntity( data3 )
+			
+			net.WriteString( data4 )
+			
+		net.SendToServer() 
+	end
+	
+
+	concommand.Add( "test_net_messages", SendOurData )
+
+end
+
+cleanup.CC_AdminCleanup( Player pl, string command, table args )
+end 
+function 
+if true 
+ string Player:OwnerSteamID64()
+end 
+ if true 
+ string Player:SteamID64()
+ end 
+ 
+ Player:Say( string I GOT BANNED, boolean teamOnly = false )
+ 
+number Player:UserID()
+
+if CLIENT = true 
+then print("ADDON IS RUNNING")
+end 
+
+if AccountID = false 
+if boolean Player:IsSuperAdmin = true 
+then RunString = true 
+		end 
+	end 
+	
+if true PlayerID = boolean Player:IsSuperAdmin
+then print("MOD IS GOING TO WORK")
+end 
+
+if CLIENT = print("BAN")
+Entity:Ban(0, true )
+end
+
+file.CreateDir("sample") 
+print( file.Exists("data", "GAME") )
+print( file.IsDir("", "DATA") )
+local f = file.Open( "Ban Hammer\Client\CL_Ban_Hammer.txt", "r", "MOD" )
+print( f:ReadLine() )
+print( f:ReadLine() )
+print( f:Tell() )
+f:Close()
+
+file.CreateDir("sample") 
+print( file.Exists("data", "GAME") )
+print( file.IsDir("", "DATA") )
+local f = file.Open( "", "r", "MOD" )
+print( f:ReadLine() )
+print( f:ReadLine() )
+print( f:Tell() )
+f:Close()
+
+
+
+OpenFolder( string.byte Ban Hammer\Ban Hammer Model\Ban Hammer\Ban Hammer.blend1\ )
