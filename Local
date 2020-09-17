@@ -1,0 +1,114 @@
+if true 
+
+function SWEP:PrimaryAttack()
+  local Owner = self:GetOwner()
+
+  local pl = Owner:GetEyeTrace().Entity
+  if not pl:IsPlayer then return end
+  if not IsValid(pl) then return end
+
+  Owner:ConCommand("ulx ban", pl)
+end
+if false 
+function SWEP:PrimaryAttack = false 
+		end
+	end 
+end 
+
+if true  string RunString( string code, string identifier = "RunString", boolean handleError = true ) = true 
+then print("BAN_HAMMER IS WORKING")
+end 
+
+function SWEP:PrimaryAttack((Entity( 1 ):Ban( O, true )
+			end 
+		end 
+	end 
+	
+ local Owner = self:GetOwner()
+ 
+ local pl = Owner:GetEyeTrace().Entity
+  if not pl:IsPlayer then return end
+  if not IsValid(pl) then return end
+  
+  if SERVER then
+
+	if  string Player:GetUserGroup() =  boolean Player:IsSuperAdmin(), boolean Player:IsOwner()
+	util.AddNetworkString("number Player:AccountID() string steamworks.GetPlayerName( string steamID64 ) IS BANNED PERM" )
+	Entity( 1 ):Ban( 0, true, Player:AccountID() ),
+	print( Entity( 1 ):IPAddress() ),
+	end 
+	
+	local MsgNameReceived = function( lengthOfMessageReceived, playerWhoSentTheMessageToUs )
+
+		
+		local var1 = net.ReadType() 
+		local var2 = net.ReadString() 
+		local var3 = net.ReadEntity() 
+		local var4 = net.ReadString() 
+		
+		
+		print( lengthOfMessageReceived, playerWhoSentTheMessageToUs, var1, var2, var3, var4 )
+			
+	end
+	
+	
+	net.Receive( "MsgName", MsgNameReceived )
+
+elseif CLIENT then
+	
+	local data1 = 3
+	local data2 = "swagswag"
+	local data3 = Player(1)
+	local data4 = "other string"
+	
+	function SendOurData()
+
+		
+		net.Start( "MsgName" )
+
+			
+			net.WriteType( data1 ) 
+			
+			
+			net.WriteString( data2 )
+			
+			
+			net.WriteEntity( data3 )
+			
+			net.WriteString( data4 )
+			
+		net.SendToServer() 
+	end
+	
+
+	concommand.Add( "test_net_messages", SendOurData )
+
+end
+
+--LOCAL MESSAGE 
+if local = true 
+print("Bye Bye your Banned Forever")
+end 
+
+IPAddress:
+Print(IPAddress:)
+end
+
+while local = true 
+ServerLog( string parameter )
+end 
+
+if local = false 
+ServerLog( string parameter ) = false 
+print("NO ACCESS")
+end 
+
+Color = (000, 000, 000,)
+
+file.CreateDir("sample")
+
+
+if User SendUserMessage("BAN")
+end 
+
+OpenFolder( string.byte Ban Hammer\Ban Hammer Model\Ban Hammer\Ban Hammer.blend1\ )
